@@ -187,9 +187,7 @@ article div.main-article{
 main.login input.submit:hover{
     background-color: #0022AA;
     border-radius: 50px;
-
-    
-}
+ }
 
 
 footer{
@@ -215,7 +213,14 @@ footer{
     margin-bottom: 10px;
   }
 
-
+  .register form .enviar{
+    background-color:#0044AA;
+    color: #ebebeb;
+  }
+  .register form .borrar{
+    background-color:#0044AA;
+    color: #ebebeb;
+  }
 
 
 
@@ -300,5 +305,8 @@ main .login form .submit:hover{
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
+    }
+    .burger-menu{
+        display: none;
     }
 }
